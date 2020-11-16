@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/YosorTV/router-app.git/static/css/main.22bffed0.chunk.css",
+    "main.js": "/YosorTV/router-app.git/static/js/main.6f63fa98.chunk.js",
+    "main.js.map": "/YosorTV/router-app.git/static/js/main.6f63fa98.chunk.js.map",
+    "runtime-main.js": "/YosorTV/router-app.git/static/js/runtime-main.cb33412f.js",
+    "runtime-main.js.map": "/YosorTV/router-app.git/static/js/runtime-main.cb33412f.js.map",
+    "static/js/2.4d6f8b97.chunk.js": "/YosorTV/router-app.git/static/js/2.4d6f8b97.chunk.js",
+    "static/js/2.4d6f8b97.chunk.js.map": "/YosorTV/router-app.git/static/js/2.4d6f8b97.chunk.js.map",
+    "static/js/3.c101b1b9.chunk.js": "/YosorTV/router-app.git/static/js/3.c101b1b9.chunk.js",
+    "static/js/3.c101b1b9.chunk.js.map": "/YosorTV/router-app.git/static/js/3.c101b1b9.chunk.js.map",
+    "index.html": "/YosorTV/router-app.git/index.html",
+    "static/css/main.22bffed0.chunk.css.map": "/YosorTV/router-app.git/static/css/main.22bffed0.chunk.css.map",
+    "static/js/2.4d6f8b97.chunk.js.LICENSE.txt": "/YosorTV/router-app.git/static/js/2.4d6f8b97.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb33412f.js",
+    "static/js/2.4d6f8b97.chunk.js",
+    "static/css/main.22bffed0.chunk.css",
+    "static/js/main.6f63fa98.chunk.js"
+  ]
+}
