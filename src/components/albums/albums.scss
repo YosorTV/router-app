@@ -1,0 +1,28 @@
+.albums{
+  li{
+    span{
+      padding-right: 10px;
+      color:#3580b3;
+    }
+    a{
+      text-transform: uppercase;
+      transition: .3s ease all;
+      &:hover{
+        color:#d3e27d;
+      }
+    }
+  }
+}
+
+.photos {
+display:flex;
+flex-wrap: wrap;
+padding: 50px;
+  figure{
+    padding: 5px;
+    img{
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

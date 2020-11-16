@@ -1,0 +1,121 @@
+.users {
+  height: 100%;
+
+  .addUser{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    background: #dadada;
+    align-items: center;
+    color: #1f1f1f;
+    transition: .3s ease all;
+    &:hover{
+      color:#3580b3;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    span {
+      color: #fff;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+        a {
+          font-family: 'Abril Fatface', cursive;
+          font-size: 24px;
+          &:first-child {
+            color: #d3e27d;
+          }
+        }
+      a {
+        &:last-child {
+          color: #3580b3;
+        }
+      }
+    }
+  }
+}
+
+.formik {
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dadada;
+  margin-top: 50px;
+
+  .wrapperInput {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+
+    label {
+      font-family: 'Abril Fatface', cursive;
+      font-size: 22px;
+    }
+
+    input {
+      width: 300px;
+      background: transparent;
+      font-size: 18px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #1f1f1f;
+    }
+  }
+  .btnWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    button {
+      color: #dadada;
+      cursor: pointer;
+      width: 120px;
+      height: 40px;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 18px;
+      border:none;
+      outline: none;
+      &:first-child {
+        background: #68ad40;
+        &:hover{
+          background: darken(#68ad40, 3%);
+        }
+        &:active{
+          background: darken(#68ad40, 6%);
+          color: #1f1f1f;
+        }
+      }
+      &:last-child {
+        background: #ad1e1e;
+        &:hover{
+          background: darken(#ad1e1e, 3%);
+        }
+        &:active{
+          background: darken(#ad1e1e, 6%);
+          color: #1f1f1f;
+        }
+      }
+    }
+  }
+}
